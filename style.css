@@ -1,0 +1,85 @@
+body{
+    background-color: #e7e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #379683;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #379689;
+    box-shadow: 0px 0px 10px #379689;
+   
+
+}
+
+
+h2{
+    font-size: 28px;
+    color: #333;
+
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px #333;
+    font-size: 16px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+
+button{
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: bisque;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in;
+
+}
+
+
+button:hover{
+    background-color: #0056b3;
+}
+
+.result{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight:bold ;
+}
+
+
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+        transform: translateY(20px);
+
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+    }
+
+}
+
+
+
+.fadeIn{
+    animation: fadeIn 0.7s ease-out
+}
